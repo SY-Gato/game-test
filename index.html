@@ -2,8 +2,30 @@
 <html>
   <head>
     <title>Game Test Bypass</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
   </head>
   <body>
-    
+    <button id="yohohoGoto" onClick="f1()">YoHoHo.io</button>
+    <button id="moomooGoto">MooMoo.io</button>
+    <input type="button" onclick="location.href='https://google.com';" value="Go to Google" />
+    <script>
+      function f1() {
+        console.log("yohoho");
+      }
+    </script>
   </body>
 </html>
